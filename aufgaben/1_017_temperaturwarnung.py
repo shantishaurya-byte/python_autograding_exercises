@@ -37,7 +37,10 @@ diese Zeile nicht mehr eingerückt ist.
 
 temperatur = int(input("Temperatur der CPU in Grad: "))
 print("Gemessen:", temperatur, "Grad")
+if temperatur > 80:
+    print("Warnung: Die CPU ist zu heiß!")
 
-pass  # ← Ersetzen Sie diese Zeile durch Ihren Code
+print("Messung gespeichert.")
+
 
 print("Messung gespeichert.")
